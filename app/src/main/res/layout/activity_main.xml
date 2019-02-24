@@ -13,8 +13,11 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="100dp"
-        android:text="40"
+        android:text="TEMP"
         android:textSize="40dp" />
+
+
+
 
     <Button
         android:layout_width="wrap_content"
@@ -24,4 +27,20 @@
         android:text="Перезагрузить"
         android:layout_gravity="center" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Обновлено в:"
+        android:textSize="12dp"
+        />
+    <TextView
+        android:id="@+id/NowDt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:text="NOWDT"
+        android:textSize="10dp" />
 </LinearLayout>
